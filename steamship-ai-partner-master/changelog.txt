@@ -1,0 +1,40 @@
+1.9.2023
+-tweaked react prompt,parser and getimgtool prompt
+
+30.8.2023
+- refactored api.py, removed Dolly added Llama as agent
+- Updated Steamship version
+- Llama llm ReACTAgent, also FunctionBasedAgent but not used currently
+- getimg as plugin
+- moved prompt templates to agent files
+
+16.7.2023
+- Updated to Steamship 2.17.18
+- Changed Agent from ReACTAgent to FunctionBasedAgent
+- added /reset command to clear chat_history
+
+8.7.2023
+- renamed response_hint_tool to VectorSearchResponseTool
+- max word limit to voice messages, prevent sending voice as files.
+
+7.7.2023
+- Refactored response_hint_tool to return similarity search results from indexed docs.
+- removed VectorSearchLearnerTool and VectorSearchQATool from used tools, now obsolete with chat_history and response_hint_tool vector memory.
+- Added safety checks to voice_tool
+- fixed usage tracking negative balance issue.
+
+5.7.2023
+- OGG generation for telegram voice messages
+- fix default llm in VectorSearchQATool
+- response hint from vector memory to all messages
+
+4.7.2023
+- usage tracking now calculates cost on generated voice
+- limit llm output when balance running low
+
+3.7.2023
+- fixed response_hint tool default llm error
+- added more invoice categories
+- option to send first image from "assets" folder preloaded image
+- usage tracking tweaking
+- added /help command

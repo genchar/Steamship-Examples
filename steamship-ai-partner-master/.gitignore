@@ -1,0 +1,11 @@
+venv38/
+venv310/
+build/
+**/__pycache__/
+__pycache__
+**/logs/
+steamship.json
+.pythonlibs
+.replit
+poetry.lock
+replit.nix

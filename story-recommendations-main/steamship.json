@@ -1,0 +1,34 @@
+{
+	"type": "package",
+	"handle": "story-recommendations",
+	"version": "1.0.5",
+	"description": "",
+	"author": "",
+	"entrypoint": "api.handler",
+	"public": true,
+	"build_config": {
+		"ignore": [
+			"tests",
+			"examples"
+		]
+	},
+	"configTemplate": {},
+	"steamshipRegistry": {
+		"tagline": null,
+		"tagline2": null,
+		"usefulFor": null,
+		"videoURL": null,
+		"githubURL": null,
+		"demoURL": null,
+		"jupyterURL": null,
+		"authorGithub": null,
+		"authorName": null,
+		"authorEmail": null,
+		"authorTwitter": null,
+		"authorURL": null,
+		"tags": [
+			"Prompt API",
+			"Image Generator"
+		]
+	}
+}
